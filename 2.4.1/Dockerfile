@@ -1,6 +1,6 @@
 FROM java:8-alpine
 
-ENV HSQLDB_VERSION 2.3.4 
+ENV HSQLDB_VERSION 2.4.1
 
 RUN \
 mkdir -p /opt/database && \
