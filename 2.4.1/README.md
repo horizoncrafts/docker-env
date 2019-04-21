@@ -1,4 +1,4 @@
-#Docker Image with HSQLDB for Software Development.
+# Docker Image with HSQLDB for Software Development.
 Based on java:8-alpine
 
 Installed Software:
@@ -7,9 +7,7 @@ Installed Software:
   * HSQLDB
   * SQLTool
 
-`docker pull datagrip/hsqldb:2.3.4`
-
-`docker run -d -p 9001:9001 --name hsqldb datagrip/hsqldb:2.3.4`
+`docker run -d -p 9001:9001 --name hsqldb horizoncrafts/hsqldb:2.4.1`
 
 Will run hsqldb which will be accessible through jdbc URL: jdbc:hsqldb:hsql://localhost/test, Username: sa, Password :
 Available environment variables:
